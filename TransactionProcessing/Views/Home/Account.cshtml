@@ -27,7 +27,7 @@
             @foreach (var transaction in @ViewBag.User.Transactions)
             {
                 <tr>
-                    <th scope="row">$@transaction.Amount</th>
+                    <th scope="row">Kshs.@transaction.Amount</th>
                     <td>@transaction.CreatedAt</td>
                 </tr>
             }
